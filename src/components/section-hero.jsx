@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heroImage from "../components/assets/images/ilu-hero_vhaek0_c_scale,w_1200.png";
+import heroImage from "../components/assets/images/ilu-hero_w_1200.png";
 
 const SectionHero = () => {
     return (
