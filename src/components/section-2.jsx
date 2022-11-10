@@ -17,10 +17,10 @@ const SectionCollections = () => {
                 <h2>Press Kit</h2>
                 <ul>
                     <li className="colspan2">
-                        <figure onClick={() => setShowModal(true)} sx={{ variant: 'figure.wrapper'}} className="instagram">
+                        <figure sx={{ variant: 'figure.wrapper'}} className="instagram">
                             <Logo alt="" />
                                 <figcaption sx={{ variant: 'figure.figureCaption'}}>
-                                    <a sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="#">Gallery</a>
+                                    <a onClick={() => setShowModal(true)} sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="#">Gallery</a>
                                 </figcaption>
                         </figure>
                     </li>
