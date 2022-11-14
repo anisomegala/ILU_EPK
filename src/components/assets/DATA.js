@@ -1,6 +1,8 @@
 import MachitoImg from "./images/machito.jpg";
 import JoaquinImg from "./images/joaquin.jpg";
 import AnielImg from "./images/aniel.jpg";
+
+
 export const ABOUT = {
     text: 'Ílú trio’s sound is an expression of joy and positive vibes. Their music cannot be put in just few words — it needs to be listened to get you carried away with the melody, the groove and the feeling. The name Ílú comes from Yoruba cuban religion and means the earth where nothing exists without the music. The trio with their music discovers a new jazz music experience, enriched within the traditional standards of Afro-Cuban sounds and feeling.  With Caribbean roots and long-term individual international careers, Bárbaro Crespo aka Machito (congas), Joaquín Sosa (tenor sax & clarinet) and Aniel Someillan (double bass), as Ílú trio, draw their musical inspiration from the songs of their ancestors, thanks to which the audience may enjoy a new, fusion jazz form.'
 }
@@ -28,3 +30,36 @@ export const BIOS = [
        img: MachitoImg  
     }
 ]
+
+export const ImagesLayout = [
+   {
+      id: "1",
+      imgsrc: AnielImg,
+      alt: "responsive images",
+   },
+   {
+      id: "2",
+      imgsrc: AnielImg,
+      alt: "responsive images",
+   },,
+   {
+      id: "3",
+      imgsrc: AnielImg,
+      alt: "responsive images",
+   },
+   {
+      id: "4",
+      imgsrc: AnielImg,
+      alt: "responsive images",
+   },
+   {
+      id: "5",
+      imgsrc: AnielImg,
+      alt: "",
+   },,
+   {
+      id: "6",
+      imgsrc: AnielImg,
+      alt: "responsive images",
+   },
+] 

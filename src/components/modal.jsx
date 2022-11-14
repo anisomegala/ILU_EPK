@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */ 
 import {useEffect, useState, useRef} from 'react';
 import  ReactDOM  from 'react-dom';
+import GridWrapper from "./gridWrapper";
 
 import { GrClose } from "react-icons/gr";
 
@@ -35,7 +36,9 @@ export default function Modal({ show, onClose, children }) {
                          <button sx={{variant: "modal.modalButtom"}}><GrClose/></button>
                         </a>
                     </div>
-                 <div sx={{variant: "modal.modalBody"}}>{children}</div>
+                 <div sx={{variant: "modal.modalBody"}}>
+                    {children}
+                </div>
                 </div>
             </div>
         </div>

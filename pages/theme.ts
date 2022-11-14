@@ -98,5 +98,22 @@ import { funk } from "@theme-ui/presets";
         border: 'dashed',
         borderColor: 'grey'
       }
+    },
+    gridWrapper: {
+      display: "grid",
+      gridTemplateColumns: "repeat(2, 1fr)",
+      gridTemplateRows: "auto",
+      gap: "1rem",
+      textAlign: "center",
+      fontSize: "0.8rem",
+      "@media screen and (min-width: 600px)" : {
+        gridTemplateColumns: "repeat(3, 1fr)",
+      },
+      "@media screen and (min-width: 800px)" : {},
+
+    },
+    gridImages: {
+      maxWidth: "100%",
+      height: "80%"
     }
  }

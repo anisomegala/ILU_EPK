@@ -5,6 +5,7 @@ import imageTrio from "../components/assets/images/ilu-hero_w_1200.png";
 import Logo from "../components/assets/images/logo_ilu.svg";
 import { jsPDF } from "jspdf";
 import Modal from "../components/modal";
+import GridWrapper from "./gridWrapper";
 
 
 const SectionCollections = () => {
@@ -55,7 +56,7 @@ const SectionCollections = () => {
                 </ul>
             </section>
             <Modal show={showModal} onClose={() => setShowModal(false)}>
-                Hello Aqui
+               <GridWrapper />
             </Modal>
         </div>
     )
