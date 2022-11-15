@@ -73,14 +73,10 @@ import { funk } from "@theme-ui/presets";
         alignItems: 'center',
         backgroundColor: 'rgba(0,0,0,0.5)'
       },
-      modalWrapper: {
-        width: '85%',
-        height: '90vh',
-      },
       modalModal: {
          background: 'white',
-          width: '100%',
-          height: '100%',
+          width: '90%',
+          height: '95%',
           borderRadius: '5px',
           padding: '15px'
       },
@@ -101,9 +97,12 @@ import { funk } from "@theme-ui/presets";
     },
     gridWrapper: {
       display: "grid",
+      width: "100%",
+      height: "100%",
+      padding: "1rem",
       gridTemplateColumns: "repeat(2, 1fr)",
       gridTemplateRows: "auto",
-      gap: "1rem",
+      gap: "5px",
       textAlign: "center",
       fontSize: "0.8rem",
       "@media screen and (min-width: 600px)" : {
@@ -113,7 +112,6 @@ import { funk } from "@theme-ui/presets";
 
     },
     gridImages: {
-      maxWidth: "100%",
-      height: "80%"
+      
     }
  }

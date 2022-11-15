@@ -6,7 +6,7 @@ import {ImagesLayout} from "./assets/DATA";
 const GridImages = () => {
    return (
             ImagesLayout.map((img) => {
-              return <Image sx={{variant: "gridImages"}} src={img.imgsrc} alt={img.alt}  id={img.id} />
+              return <Image sx={{variant: "gridImages"}} width={250} height={250} src={img.imgsrc} alt={img.alt}  id={img.id} />
             })
    ) 
 } 

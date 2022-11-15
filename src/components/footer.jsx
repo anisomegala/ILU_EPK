@@ -17,18 +17,14 @@ const Footer = () => {
                     maxWidth: "1200px",
                     variant: 'styles.footer',
                 }}>  
-                <Link href="/" sx={{color: 'inverseText', p: '2'}}>
+                <Link href="/" sx={{color: 'inverseText', p: '2', fontSize: "1.2rem"}}>
                     <CiHome />
                 </Link>
-                <Link href="/" sx={{color: 'inverseText', p: '2'}}>
+                <Link href="https://www.instagram.com/ilu" sx={{color: 'inverseText', p: '2', fontSize: "1.2rem"}}>
                     <CiInstagram />
                 </Link>
-                <Link href="#" sx={{color: 'inverseText', p: '2'}}>
-                   <CiFacebook />
-                </Link>
                 <div sx={{ mx: 'auto' }} />
-                <div sx={{ p: 2 }}>© 2022 Aniel Someillan</div>
-            
+                <div sx={{ p: 2, fontSize: "0.8rem", fontWeight: "bold" }}>© 2022 Aniel Someillan</div>
             </footer>
         </div>
     )

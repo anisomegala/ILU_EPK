@@ -11,6 +11,15 @@ import GridWrapper from "./gridWrapper";
 const SectionCollections = () => {
     const [isShown, setIsShown] = useState(false);
     const [showModal, setShowModal] = useState(false);
+    const [saving, setSaving] = useState(false);
+
+    function saveRider() {
+        setSaving(true)
+        let doc = new jsPDF('portrait', 'px', 'a4', false)
+        doc.addImage('https://i.ibb.co/nCXNWs5/technical-Rider.png', 'PNG', 0, 0, 450, 385)
+        doc.save('rider.pdf')
+        setSaving(false)
+    }
 
     return (
         <div>
@@ -49,7 +58,14 @@ const SectionCollections = () => {
                         className="Rider">
                             <Logo alt="" />
                             <figcaption  sx={{ variant: 'figure.figureCaption'}}>
-                                <a sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}}> {isShown ? 'Download' : "Technical Rider"}</a>
+                                <a  onClick={saveRider}
+                                    target='_blank'
+                                    sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}}> 
+                                        {
+                                            isShown ? 'Click to Download' : "Technical Rider"
+                                        }
+                                    </a>
+                                    
                             </figcaption>
                         </figure>
                     </li>

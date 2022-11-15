@@ -29,7 +29,6 @@ export default function Modal({ show, onClose, children }) {
 
     const modalContent = show ? (
         <div sx={{variant: "modal.modalOverlay"}}>
-            <div sx={{variant: "modal.modalWrapper"}} ref={modalWrapperRef}>
                 <div sx={{variant: "modal.modalModal"}}>
                  <div sx={{variant: "modal.modalHeader"}}>
                         <a href='#' onClick={handleClose}>
@@ -40,7 +39,6 @@ export default function Modal({ show, onClose, children }) {
                     {children}
                 </div>
                 </div>
-            </div>
         </div>
     ) : null
     
