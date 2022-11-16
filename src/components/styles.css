@@ -86,12 +86,19 @@ nav a:hover {
 /* overview styles */
 #overview {
     margin-bottom: 3em;
+   
 }
 
 .overview-text {
     display: block;
     line-height: 1.7;
-    max-width: 1000px;
+    max-width: 1100px;
+    
+}
+
+/* navbar Active links */
+.active {
+    color: red;
 }
 
 .overview-img {

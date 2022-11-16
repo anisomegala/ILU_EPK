@@ -8,7 +8,7 @@ const SectionOverview = () => {
         <div>
             <section id="overview">
         <h2>Ilu</h2>
-        <div class="overview-text">
+        <div className="overview-text">
             <p>
                 <Logo
                 alt="ilu trio logo" 

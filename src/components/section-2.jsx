@@ -6,6 +6,7 @@ import Logo from "../components/assets/images/logo_ilu.svg";
 import { jsPDF } from "jspdf";
 import Modal from "../components/modal";
 import GridWrapper from "./gridWrapper";
+import { FiDownload  } from "react-icons/fi";
 
 
 const SectionCollections = () => {
@@ -50,7 +51,7 @@ const SectionCollections = () => {
                             </figcaption>
                         </figure>
                     </li>
-                    <li class="colspan2">
+                    <li className="colspan2">
                         <figure 
                         onMouseEnter={() => setIsShown(true)} 
                         onMouseLeave={() => setIsShown(false)} 
@@ -62,7 +63,7 @@ const SectionCollections = () => {
                                     target='_blank'
                                     sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}}> 
                                         {
-                                            isShown ? 'Click to Download' : "Technical Rider"
+                                            isShown ? <FiDownload /> : "Technical Rider"
                                         }
                                     </a>
                                     

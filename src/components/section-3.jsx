@@ -13,7 +13,7 @@ const SectionAboutUs = () => {
         <div className="about-us-wrapper">
            {
             BIOS.map((bio) => (
-                <article id={bio.name}>
+                <article id={bio.name} key={bio.name}>
                     <h3>{bio.name}</h3>
                     <h4>{bio.instrument}</h4>
                     <Image width={250} height={300} sx={{mb: '1rem'}} src={bio.img} alt="joaquin adjusting tenor sax" />
