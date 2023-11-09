@@ -3,6 +3,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai"
 
 const Contact = () => {
+    
     return (
         <div sx={{maxWidth: '1200px', height: '100vh', textAlign: 'center', display: 'flex', flexFlow: "column wrap", alignItems: 'center', justifyContent: 'center'} }>
             <div sx={{textAlign: 'center'}}>

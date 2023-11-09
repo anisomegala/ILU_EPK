@@ -1,4 +1,5 @@
 /** @jsxImportSource theme-ui */ 
+import React from "react";
 import imageGallery from "../../src/components/imageGrid";
 
 
