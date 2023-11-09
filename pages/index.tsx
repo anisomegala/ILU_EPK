@@ -10,7 +10,7 @@ import SectionHero from "../src/components/section-hero";
 const Page = () => {
     return (
         <div>
-            {/* <SectionHero /> */}
+            <SectionHero />
             <SectionOverview />
             <SectionCollections />
             <SectionAboutUs  />

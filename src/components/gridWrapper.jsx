@@ -1,11 +1,11 @@
 /** @jsxImportSource theme-ui */ 
 import React from "react";
-import GridImages from "./gridImages";
+import GridImagesHero from "./gridHero";
 
 const GridWrapper = () => {
    return (
     <div sx={{variant: "gridWrapper"}} >
-        <GridImages />
+        <GridImagesHero />
     </div>
    )
 }

@@ -70,7 +70,6 @@ nav a:hover {
 }
 /* hero styles */
 #hero {
-    background-color: gold;
     text-align: center;
     max-width: 100%;
     padding: 0;
@@ -85,7 +84,7 @@ nav a:hover {
 
 /* overview styles */
 #overview {
-    margin-bottom: 3em;
+    margin-bottom: 5rem;
    
 }
 
@@ -168,25 +167,37 @@ figcaption {
 } */
 
 /* section about us styles */
+
+#about-us {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 #about-us p {
     font-size: 0.8rem;
+    max-width: 80%;
+}
+
+#about-us h2 {
+    text-align: center;
 }
 
 
 #about-us h4 {
     text-transform: uppercase;
     font-width: normal;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin: 0;
+    margin-bottom: 2rem;
 }
 
 #about-us h3 {
     margin-top: 0.3rem;
+    margin-bottom: 0rem;
 }
 
 .about-us-wrapper {
    display: flex;
-   flex-flow: column wrap; 
    justify-content: center;
    gap: 1rem;
 }
@@ -196,6 +207,9 @@ figcaption {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, auto);
     gap: 0 1rem;
+    /* border-right: 1px solid; */
+    padding: 0rem 2rem;
+    max-width: 33%;
 }
 
 .about-us-wrapper article * {
@@ -245,7 +259,7 @@ figcaption {
 
     /* overview styles tablet */
     #overview {
-        margin-bottom: 9rem;
+        margin-bottom: 5rem;
     }
     .overview-tex {
         display: flow-root;
@@ -281,9 +295,17 @@ figcaption {
     order: 3;
    }
 
+
+   .section-1-Wrapper {
+    padding-bottom: 3rem;
+    /* border-top: 1px solid gold;
+    border-bottom: 1px solid gold; */
+  
+   }
+
    /* overview section screen breakpoint */
     #overview {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
     #about-us p {
@@ -291,23 +313,21 @@ figcaption {
     }
 
    .about-us-wrapper {
-     display: grid;
-     grid-template-columns: repeat(3, minmax(10px, 1fr));
+     display: flex;
    }
 
    .about-us-wrapper article {
-        grid-template-columns: minmax(100px, 1fr);
-        grid-template-rows: repeat(5, auto);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
    }
 
    .about-us-wrapper article * {
-    grid-column: 1/2;
    }
 
    .about-us-wrapper article img {
-    grid-row: 1/2;
-    grid-row: auto;
     margin-botom: 1rem;
+    border-radius: 50%;
    }
 
 }  

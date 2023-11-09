@@ -2,6 +2,13 @@ import MachitoImg from "./images/machito.jpg";
 import JoaquinImg from "./images/joaquin.jpg";
 import AnielImg from "./images/aniel.jpg";
 
+import JoaquinImgH from "./images/sesja_nieporet_kuban_09-2023_polaroid-3.jpg";
+import AnielImgH from "./images/sesja_nieporet_kuban_09-2023_polaroid-2.jpg";
+import MachitoImgH from "./images/sesja_nieporet_kuban_09-2023_polaroid.jpg";
+import JoaquinImgH4 from "./images/sesja_nieporet_kuban_09-2023.jpg";
+import AnielImgH5 from "./images/sesja_nieporet_kuban_09-2023-3.jpg";
+import MachitoImgH6 from "./images/sesja_nieporet_kuban_09-2023-2.jpg";
+
 
 export const ABOUT = {
     text: 'Ílú trio’s sound is an expression of joy and positive vibes. Their music cannot be put in just few words — it needs to be listened to get you carried away with the melody, the groove and the feeling. The name Ílú comes from Yoruba cuban religion and means the earth where nothing exists without the music. The trio with their music discovers a new jazz music experience, enriched within the traditional standards of Afro-Cuban sounds and feeling.  With Caribbean roots and long-term individual international careers, Bárbaro Crespo aka Machito (congas), Joaquín Sosa (tenor sax & clarinet) and Aniel Someillan (double bass), as Ílú trio, draw their musical inspiration from the songs of their ancestors, thanks to which the audience may enjoy a new, fusion jazz form.'
@@ -10,21 +17,21 @@ export const ABOUT = {
 export const BIOS = [
     {
        name: 'Joaquín SOSA',
-       description: 'Award-winning Cuban jazz musician, who plays clarinet, tenor saxophone and flugelhorn. He performed in various Jazz Festivals in Cuba, Barbados, Spain, UAE and Poland where he shared the stage with great artists like: Wynton Marsalis, Victor Goines, Roy Hargrove, Horacio El Negro, Giovanni Hidalgo, Arturo Tappin and Frederic Yonnet..',
+       description: 'Cuban jazz virtuoso excels in clarinet, tenor saxophone, and flugelhorn. Award winner, performed globally at Jazz Festivals, collaborated with Wynton Marsalis, Roy Hargrove, and other renowned artists.',
        website: 'www.joaquinsosamusic.com',
        instrument: "Clarinet and Tenor Sax",
        img: JoaquinImg  
     },
     {
        name: 'Aniel Someillan',
-       description: 'Cuban musician, holding a degree in Arts and Music from the renowned Amadeo Roldan Conservatory in Havana, he’s been developing his international career not only playing acoustic and electric bass with many renowned artists, but also collaborating as a composer and arranger with artists such as Giovanni Hidalgo, Pepe Cisneros, Yaniel Matos, Dona Inhá, Felipe Lamoglia, Joaquin Betancourt, and many others...',
+       description: 'A highly skilled Cuban musician, graduate of Amadeo Roldan Conservatory, excels in acoustic and electric bass. Internationally recognized for collaborations with renowned artists, including Amaro Freitas and Shabaka Hutchkings.',
        website: 'www.anielsomeillan.com',
        instrument: "Double Bass",
        img: AnielImg    
     },
     {
-       name: 'Bárbaro Crespo aka MACHITO',
-       description: 'Comes from the Calderón family of congas and rumba masters. By the age of just 12, he began to perform with the Cuban folklore group Echu Alaboni, and over the years, he participated in numerous festivals, performed in theatres, television and popular events on Cuba and internationally. Since 2013, Machito has been associated with the group Adonis y Osain del Monte, as its co-founder and a leading percussionist. Between 2017 and 2020, he participated in the afro-jazz French-Cuban music project ¿Que vola?...',
+       name: 'MACHITO',
+       description: 'Machito, a prodigy from the Calderón family, started performing at 12 with Echu Alaboni, showcasing his talent in global festivals, theatres, TV, and popular events. He co-founded Adonis y Osain del Monte and contributed to the ¿Que vola? project from 2017 to 2020.',
        website: 'www.laclavedebarrio.com',
        instrument: "Percusion",
        img: MachitoImg  
@@ -60,6 +67,40 @@ export const ImagesLayout = [
    {
       id: "6",
       imgsrc: AnielImg,
+      alt: "responsive images",
+   },
+] 
+
+
+export const ImagesLayoutHero = [
+   {
+      id: 1,
+      imgsrc: JoaquinImgH,
+      alt: "responsive images",
+   },
+   {
+      id: 2,
+      imgsrc: AnielImgH,
+      alt: "responsive images",
+   },,
+   {
+      id: 3,
+      imgsrc: MachitoImgH,
+      alt: "responsive images",
+   },
+   {
+      id: 4,
+      imgsrc: JoaquinImgH4,
+      alt: "responsive images",
+   },
+   {
+      id: 5,
+      imgsrc: AnielImgH5,
+      alt: "",
+   },,
+   {
+      id: 6,
+      imgsrc: MachitoImgH6,
       alt: "responsive images",
    },
 ] 

@@ -9,13 +9,15 @@ import { funk } from "@theme-ui/presets";
     text: '#051625',
     inverseText: '#051625',
     background: '#F2F2F1',
-    navColor: 'yellow',
+    navColor: 'gold',
+    borderColor: ' gold',
     modes: {
       dark: {
         text: '#BFCCD9',
         inverseText: '#BFCCD9',
         background: '#020E1A',
         navColor: 'brown',
+        borderColor: 'brown'
       },
     },
   },
@@ -97,12 +99,14 @@ import { funk } from "@theme-ui/presets";
     },
     gridWrapper: {
       display: "grid",
-      width: "100%",
+      width: "50%",
       height: "100%",
       padding: "1rem",
       gridTemplateColumns: "repeat(2, 1fr)",
       gridTemplateRows: "auto",
       gap: "5px",
+      margin: "4rem auto",
+      marginInline: "auto",
       textAlign: "center",
       fontSize: "0.8rem",
       "@media screen and (min-width: 600px)" : {

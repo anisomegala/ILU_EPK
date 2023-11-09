@@ -1,5 +1,6 @@
 /** @jsxImportSource theme-ui */ 
 import React, { useState } from "react";
+import useDownloader from "react-use-downloader"; 
 import Image from "next/image";
 import imageTrio from "../components/assets/images/ilu-hero_w_1200.png";
 import Logo from "../components/assets/images/logo_ilu.svg";
@@ -13,6 +14,10 @@ const SectionCollections = () => {
     const [isShown, setIsShown] = useState(false);
     const [showModal, setShowModal] = useState(false);
     const [saving, setSaving] = useState(false);
+
+    const { size, elapsed, percentage, download, cancel, error, isInProgress } = useDownloader();
+
+
 
     function saveRider() {
         setSaving(true)
@@ -31,7 +36,7 @@ const SectionCollections = () => {
                         <figure sx={{ variant: 'figure.wrapper'}} className="instagram">
                             <Logo alt="" />
                                 <figcaption sx={{ variant: 'figure.figureCaption'}}>
-                                    <a onClick={() => setShowModal(true)} sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="#">Gallery</a>
+                                    <a sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="/gallery">Gallery</a>
                                 </figcaption>
                         </figure>
                     </li>
@@ -39,7 +44,7 @@ const SectionCollections = () => {
                         <figure sx={{ variant: 'figure.wrapper'}} className="videos">
                             <Logo alt="" />
                                 <figcaption sx={{ variant: 'figure.figureCaption'}}>
-                                    <a  sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="#">Videos</a>
+                                    <a  sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="/videos">Videos</a>
                                 </figcaption>
                         </figure>
                     </li>
@@ -65,7 +70,7 @@ const SectionCollections = () => {
                                         {
                                             isShown ? <FiDownload /> : "Technical Rider"
                                         }
-                                    </a>
+                                </a>
                                     
                             </figcaption>
                         </figure>

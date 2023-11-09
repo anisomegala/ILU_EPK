@@ -14,7 +14,6 @@ const Footer = () => {
                     alignItems: 'center',
                     p: 2,
                     marginTop: "2rem",
-                    maxWidth: "1200px",
                     variant: 'styles.footer',
                 }}>  
                 <Link href="/" sx={{color: 'inverseText', p: '2', fontSize: "1.2rem"}}>
