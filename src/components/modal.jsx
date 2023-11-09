@@ -5,7 +5,7 @@ import GridWrapper from "./gridWrapper";
 
 import { GrClose } from "react-icons/gr";
 
-export default function Modal({ show, onClose, children }) {
+function Modal({ show, onClose, children }) {
     const [isBrowser, setIsBrowser] = useState(false);
     const modalWrapperRef = useRef();
 
@@ -52,3 +52,4 @@ export default function Modal({ show, onClose, children }) {
 }
 
 
+export default Modal;

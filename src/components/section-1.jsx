@@ -8,16 +8,6 @@ import axios from 'axios';
 
 const SectionOverview = () => {
 
-    // const fetchPhoto = () => {
-    //     axios.get('https://ibb.co/H4NCyrY')
-    //     .then(res => res.json())
-    //     .then(res => console.log(res))
-    // }
-
-    // useEffect(() => {
-    //     fetchPhoto()
-    // }, [])
-
     return (
         <div >
             <section id="overview">
