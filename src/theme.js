@@ -99,7 +99,7 @@ import { funk } from "@theme-ui/presets";
     },
     gridWrapper: {
       display: "grid",
-      width: "50%",
+      width: "100%",
       height: "100%",
       padding: "1rem",
       gridTemplateColumns: "repeat(2, 1fr)",
@@ -111,11 +111,29 @@ import { funk } from "@theme-ui/presets";
       fontSize: "0.8rem",
       "@media screen and (min-width: 600px)" : {
         gridTemplateColumns: "repeat(3, 1fr)",
+        width: "100%"
       },
-      "@media screen and (min-width: 800px)" : {},
+      "@media screen and (min-width: 800px)" : {
+        width: "75%"
+      },
 
     },
-    gridImages: {
-      
-    }
+    aboutWrapper: {
+      textAlign: "center",
+      fontSize: "0.8rem",
+      "@media screen and (min-width: 600px)" : {
+      },
+      "@media screen and (min-width: 800px)" : {
+        width: "100%",
+        display: "grid",
+        width: "100%",
+        gridTemplateColumns: "repeat(3, 1fr)",
+        gridTemplateRows: "auto",
+        gap: "5rem",
+        marginInline: "auto",
+        textAlign: "center",
+        fontSize: "0.8rem",
+      },
+
+    },
  }

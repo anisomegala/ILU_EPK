@@ -10,7 +10,7 @@ const SectionAboutUs = () => {
         <div>
         <section id="about-us">
         <h2>About Us</h2>
-        <div className="about-us-wrapper">
+        <div sx={{variant: "aboutWrapper"}} className="about-us-wrapper">
            {
             BIOS.map((bio) => (
                 <article sx={{borderColor: 'borderColor', borderRightStyle: 'solid', borderRighttWidth: '0.2rem'}} id={bio.name} key={bio.name}>
