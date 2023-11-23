@@ -23,7 +23,7 @@ const NavBar = () => {
                         <li><Link href="/"><Logo sx={{color: 'inverseText'}} className="header-logo-img" alt="ilu trio logo. Click for home" /></Link></li>
                         { router.asPath === '/' ? <li><Link sx={{color: 'inverseText'}} href='/contact'>{router.asPath === '/' ? 'Contact Us' : "Home"}</Link></li> :
                         <li><Link sx={{color: 'inverseText'}} href="/">Home</Link></li> }
-                        <li><Link sx={{color: 'inverseText'}} href="#about-us">Bio</Link></li>
+                        <li><Link sx={{color: 'inverseText'}} href="/bio">Bio</Link></li>
                         <li><Link sx={{color: 'inverseText'}} href="/contact">Comercial Offer</Link></li>
                         <li><Link sx={{color: 'inverseText'}} onClick={() => setColorMode(colorMode === 'light' ? 'dark' : 'light')} href="#">{colorMode === 'light' ? <MdDarkMode /> : <MdOutlineLightMode />} mode</Link></li>
                     </ul>

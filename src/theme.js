@@ -129,11 +129,18 @@ import { funk } from "@theme-ui/presets";
         width: "100%",
         gridTemplateColumns: "repeat(3, 1fr)",
         gridTemplateRows: "auto",
-        gap: "5rem",
         marginInline: "auto",
         textAlign: "center",
         fontSize: "0.8rem",
       },
-
     },
+    article: {
+      borderColor: 'borderColor', 
+      borderRightStyle: 'solid', 
+      borderRightWidth: '0.2rem',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }
  }
