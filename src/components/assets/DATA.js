@@ -19,13 +19,15 @@ export const BIOS = [
        name: 'Joaquín SOSA',
        description: 'Cuban jazz virtuoso excels in clarinet, tenor saxophone, and flugelhorn. Award winner, performed globally at Jazz Festivals, collaborated with Wynton Marsalis, Roy Hargrove, and other renowned artists.',
        website: 'www.joaquinsosamusic.com',
+       instagram: 'https://instagram.com/joaquinsosa89',
        instrument: "Clarinet and Tenor Sax",
        img: JoaquinImg  
     },
     {
        name: 'Aniel Someillan',
-       description: 'A highly skilled Cuban musician, graduate of Amadeo Roldan Conservatory, excels in acoustic and electric bass. Internationally recognized for collaborations with renowned artists, including Amaro Freitas and Shabaka Hutchkings.',
+       description: 'Graduate of Amadeo Roldan Conservatory, excels in acoustic and electric bass. Internationally recognized for collaborations with renowned artists, including Nailor Azevedo(Proveta), Luedji Luna, Xenia Franca, Dona Inah, Amaro Freitas and Shabaka Hutchkings.',
        website: 'www.anielsomeillan.com',
+       instagram: 'https://instagram.com/anielsomeillan',
        instrument: "Double Bass",
        img: AnielImg    
     },
@@ -33,6 +35,7 @@ export const BIOS = [
        name: 'MACHITO',
        description: 'Machito, a prodigy from the Calderón family, started performing at 12 with Echu Alaboni, showcasing his talent in global festivals, theatres, TV, and popular events. He co-founded Adonis y Osain del Monte and contributed to the ¿Que vola? project from 2017 to 2020.',
        website: 'www.laclavedebarrio.com',
+       instagram: 'https://instagram.com/machito_laclavedebarrio',
        instrument: "Percusion",
        img: MachitoImg  
     }

@@ -29,6 +29,10 @@ header {
     margin: 0 auto;   
 }
 
+.dateTimeline {
+    color: brown;
+}
+
 /*  navigation styling - universal across breakpoints */
 nav ul {
     list-style-type: none;

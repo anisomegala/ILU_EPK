@@ -36,7 +36,7 @@ const SectionCollections = () => {
                         <figure sx={{ variant: 'figure.wrapper'}} className="instagram">
                             <Logo alt="" />
                                 <figcaption sx={{ variant: 'figure.figureCaption'}}>
-                                    <a sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="/gallery">Gallery</a>
+                                    <a sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="/shows">Shows</a>
                                 </figcaption>
                         </figure>
                     </li>

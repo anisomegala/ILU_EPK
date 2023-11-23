@@ -19,7 +19,7 @@ const Footer = () => {
                 <Link href="/" sx={{color: 'inverseText', p: '2', fontSize: "1.2rem"}}>
                     <CiHome />
                 </Link>
-                <Link href="https://instagram.com/ilu_official_band_?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" sx={{color: 'inverseText', p: '2', fontSize: "1.2rem"}}>
+                <Link href="https://instagram.com/ilu_official_band_?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="new" sx={{color: 'inverseText', p: '2', fontSize: "1.2rem"}}>
                     <CiInstagram />
                 </Link>
                 <div sx={{ mx: 'auto' }} />

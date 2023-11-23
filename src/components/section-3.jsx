@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import logo from "../components/assets/images/logo_ilu.svg";
 import { BIOS } from '../components/assets/DATA';
+import Link from "next/link";
+import { CiFacebook, CiInstagram, CiHome  } from "react-icons/ci";
 
 
 const SectionAboutUs = () => {
@@ -18,7 +20,10 @@ const SectionAboutUs = () => {
                     <h4>{bio.instrument}</h4>
                     <Image width={300} height={300} sx={{mb: '1rem'}} style={{objectFit: 'cover'}} src={bio.img} alt="joaquin adjusting tenor sax" />
                     <p>{bio.description}</p>
-                    <p><a sx={{color: 'inverseText'}} href={`https://${bio.website}`}>{bio.website}</a></p>
+                    <p><a sx={{color: 'inverseText'}} href={`https://${bio.website}`} target="new">{bio.website}</a></p>
+                     <Link href={bio.instagram}  target="new" sx={{color: 'inverseText', fontSize: "2.5rem"}}>
+                        <CiInstagram />
+                    </Link>
                 </article>
             ))
            }

@@ -136,6 +136,7 @@ import { funk } from "@theme-ui/presets";
     },
     article: {
       borderColor: 'borderColor', 
+      borderRadius: '3%',
       borderRightStyle: 'solid', 
       borderRightWidth: '0.2rem',
       display: 'flex',
