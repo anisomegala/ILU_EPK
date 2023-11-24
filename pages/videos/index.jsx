@@ -6,6 +6,8 @@ import YoutubeVideo from "../../src/components/youtubeVideo";
 const Videos = () => {
     const id_1 = "ug-NmgN5D78";
     const id_2 = "TQj2_jUwlOY";
+    const id_3 = "JcD-YlbdV8o";
+    const id_4 = "7yzIY_dvc1s";
     return (
         <div  sx={{textAlign: 'center', display: 'flex', flexFlow: "column wrap", alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: '7rem', marginTop: '5rem'} }>
             <div sx={{display:'flex', flexDirection: "column", alignItems: 'center', gap: '2rem'}}>
@@ -15,6 +17,14 @@ const Videos = () => {
             <div sx={{display:'flex', flexDirection: "column", alignItems: 'center', gap: '2rem'}}>
                 <h2 sx={{display: 'inline-block', m: '0', marginRight: '2rem', p: '0 23px 0 0', verticalAlign: "middle", borderRight:'2px solid'}}> Opus Jazz Club - Budapest  </h2>
                     <YoutubeVideo id= {id_2} />
+            </div>
+            <div sx={{display:'flex', flexDirection: "column", alignItems: 'center', gap: '2rem'}}>
+                <h2 sx={{display: 'inline-block', m: '0', marginRight: '2rem', p: '0 23px 0 0', verticalAlign: "middle", borderRight:'2px solid'}}> "Ilu" - Quality Studio </h2>
+                    <YoutubeVideo id= {id_3} />
+            </div>
+            <div sx={{display:'flex', flexDirection: "column", alignItems: 'center', gap: '2rem'}}>
+                <h2 sx={{display: 'inline-block', m: '0', marginRight: '2rem', p: '0 23px 0 0', verticalAlign: "middle", borderRight:'2px solid'}}> "El trillo" - Quality Studio </h2>
+                    <YoutubeVideo id= {id_4} />
             </div>
         </div>
     )
