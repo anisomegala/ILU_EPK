@@ -52,11 +52,13 @@ import { funk } from "@theme-ui/presets";
         width: '100%',
         margin: '0',
         padding: '0',
+        cursor: 'pointer',
         figureCaptionAncor: {
           display: 'block',
           padding: '1rem',
           textDecoration: 'none',
-          color: 'black'
+          color: 'black',
+          cursor: 'pointer',
         }
       }
     },

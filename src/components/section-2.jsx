@@ -52,7 +52,7 @@ const SectionCollections = () => {
                         <figure sx={{ variant: 'figure.wrapper'}} className="Press">
                             <Logo alt="" />
                             <figcaption sx={{ variant: 'figure.figureCaption'}}>
-                                <a  sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="https://www.bing.com/search?q=ilu+trio&qs=n&form=QBRE&sp=-1&pq=ilu+trio&sc=2-8&sk=&cvid=A6200DCF2AC34D6DBF7B4AD0EC4BA726&ghsh=0&ghacc=0&ghpl=" role="button">Press</a>
+                                <a  sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}} href="https://gazetakrakowska.pl/znamy-laureatow-jazz-juniors-2022-kubanskie-trio-ilu-oraz-polski-kwartet-ziemia-z-prestizowa-nagroda-na-koncie/ar/c13-16919981" target='_blank' role="button">Press</a>
                             </figcaption>
                         </figure>
                     </li>
@@ -68,7 +68,7 @@ const SectionCollections = () => {
                                     target='_blank'
                                     sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}}> 
                                         {
-                                            isShown ? <FiDownload /> : "Technical Rider"
+                                            isShown ? <FiDownload /> : "Stage Plan"
                                         }
                                 </a>
                                     
