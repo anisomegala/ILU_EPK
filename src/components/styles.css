@@ -7,6 +7,13 @@ html {
 *::after {
      box-sizing: inherit;
 }
+
+iframe {
+    width: 100%;
+    min-width: 19rem;
+    height: 15rem;
+}
+
 /* 
 body {
     display: flex;

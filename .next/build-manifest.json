@@ -27,20 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bio": [
+    "/videos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/bio.js"
-    ],
-    "/contact": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
-    ],
-    "/shows": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/shows.js"
+      "static/chunks/pages/videos.js"
     ]
   },
   "ampFirstPages": []
