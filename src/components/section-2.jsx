@@ -8,6 +8,7 @@ import { jsPDF } from "jspdf";
 import Modal from "../components/modal";
 import GridWrapper from "./gridWrapper";
 import { FiDownload  } from "react-icons/fi";
+import Link from "next/link";
 
 
 const SectionCollections = () => {
@@ -19,13 +20,13 @@ const SectionCollections = () => {
 
 
 
-    function saveRider() {
-        setSaving(true)
-        let doc = new jsPDF('portrait', 'px', 'a4', false)
-        doc.addImage('https://i.ibb.co/nCXNWs5/technical-Rider.png', 'PNG', 0, 0, 450, 385)
-        doc.save('rider.pdf')
-        setSaving(false)
-    }
+    // function saveRider() {
+    //     setSaving(true)
+    //     let doc = new jsPDF('portrait', 'px', 'a4', false)
+    //     doc.addImage('https://i.ibb.co/nCXNWs5/technical-Rider.png', 'PNG', 0, 0, 450, 385)
+    //     doc.save('rider.pdf')
+    //     setSaving(false)
+    // }
 
     return (
         <div>
@@ -64,13 +65,15 @@ const SectionCollections = () => {
                         className="Rider">
                             <Logo alt="" />
                             <figcaption  sx={{ variant: 'figure.figureCaption'}}>
-                                <a  onClick={saveRider}
-                                    target='_blank'
+                                <Link
+                                    href='/IluRider.pdf'
+                                    download={true}
+                                    target={'_blank'}
                                     sx={{ variant: 'figure.figureCaption.figureCaptionAncor'}}> 
                                         {
                                             isShown ? <FiDownload /> : "Stage Plan"
                                         }
-                                </a>
+                                </Link>
                                     
                             </figcaption>
                         </figure>
